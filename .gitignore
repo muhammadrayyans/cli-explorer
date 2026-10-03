@@ -1,0 +1,7 @@
+## Folders and files to be hidden
+
+.env
+test
+hidden
+__pycache__
+.pyc
