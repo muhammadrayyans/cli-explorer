@@ -7,6 +7,7 @@ def folder_navigation(content_list: list, root: str) -> str:
     Args:
         content_list: the content list
     """
+    
     user_input = input("Enter the name of the folder or select the index : ")
     if int(user_input) == -1:
         return "break-x01238bsk032k09sda(*&^)"
