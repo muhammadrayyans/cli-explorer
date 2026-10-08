@@ -24,4 +24,13 @@ def folder_navigation(content_list: list, root: str) -> str:
             return root
     
     
-        
+def folder_nav_backwards():
+    """Used to navigate backward from current directory
+    """
+    
+    splitted_root = env.root.split("\\")
+    new_root =""
+    for i in range(len(splitted_root)-1):
+        new_root+= (splitted_root[i]+"\\")
+    env.update_root(rf"{new_root}")
+    
